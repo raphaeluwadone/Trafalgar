@@ -1,0 +1,26 @@
+.drop {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%)
+
+}
+
+li {
+    list-style: none;
+    padding-bottom: 15px;
+    color: white;
+}
+
+h5:last-child() {
+    color: white;
+    background-color: red;
+    margin-bottom:25px ;
+}
+
+.circle {
+    color: #67C3F3;
+    font-size: 30px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    text-align: center;
+}

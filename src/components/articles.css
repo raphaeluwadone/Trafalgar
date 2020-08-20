@@ -1,0 +1,57 @@
+.border-4 {
+    width: 55px;
+    height: 3px;
+    background-color: black;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.tile {
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.7);
+border-radius: 20px;
+
+}
+
+.tile > img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.consult3 {
+    margin-top: 80px;
+    border-radius: 30px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+button:hover {
+    color: white;
+}
+
+.element {
+    transform: rotateZ(90deg);
+    position: absolute;
+    right: 1px;
+    top: 4650px;
+    width: 50px;
+}
+
+.vee-two{
+    position: absolute;
+    z-index: -1;
+    right:-10px;
+    bottom: -3700px;
+}
+
